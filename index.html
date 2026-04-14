@@ -1,0 +1,842 @@
+<!DOCTYPE html>
+<html lang="la">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bennett’s New Latin Grammar</title>
+  <link rel="stylesheet" href="bennett.css">
+</head>
+<body>
+  <header class="site-header">
+    <button class="sidebar-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    <a class="site-title" href="#index">Bennett’s New Latin Grammar</a>
+    <span class="breadcrumb" id="breadcrumb"></span>
+  </header>
+
+  <div class="layout">
+    <nav class="sidebar" id="sidebar" aria-label="Section navigation">
+      <div class="sidebar-jump">
+        <input class="sidebar-jump-input" id="sidebar-jump-input" type="search"
+               list="sidebar-jump-list" placeholder="Jump to section..."
+               aria-label="Jump to section">
+        <datalist id="sidebar-jump-list">
+          <option value="index">Title and Contents</option>
+          <option value="1">§1 The Alphabet</option>
+          <option value="2">§2 Classification of Sounds</option>
+          <option value="3">§3 Sounds of the Letters</option>
+          <option value="4">§4 Syllables</option>
+          <option value="5">§5 Quantity</option>
+          <option value="6">§6 Accent</option>
+          <option value="7">§7 Vowel Changes</option>
+          <option value="8">§8 Consonant Changes</option>
+          <option value="9">§9 Peculiarities of Orthography</option>
+          <option value="10">§10 NOUNS.</option>
+          <option value="11">§11 Of these eight parts of speech the first four are capable of Inflection, i.e. of...</option>
+          <option value="12">§12 A Noun is the name of a person, place, thing, or quality; as, Caesar, Caesar...</option>
+          <option value="13">§13 Gender of Nouns</option>
+          <option value="14">§14 The gender of nouns is natural when it is based upon sex</option>
+          <option value="15">§15 Grammatical gender is determined not by sex, but by the general signification of...</option>
+          <option value="16">§16 Number</option>
+          <option value="17">§17 Cases</option>
+          <option value="18">§18 The Five Declensions</option>
+          <option value="19">§19 Cases alike in Form</option>
+          <option value="20">§20 First Declension</option>
+          <option value="21">§21 Peculiarities of Nouns of the First Declension</option>
+          <option value="22">§22 These end in -ē (Feminine); -ās and -ēs (Masculine)</option>
+          <option value="23">§23 Second Declension</option>
+          <option value="24">§24 Nouns ending in the Nominative Singular in -vus, -vum, -quus, exhibited two...</option>
+          <option value="25">§25 Peculiarities of Inflection in the Second Declension</option>
+          <option value="26">§26 Exceptions to Gender in the Second Declension</option>
+          <option value="27">§27 These end in -os, -ōs, Masculine or Feminine; and -on, Neuter</option>
+          <option value="28">§28 Third Declension</option>
+          <option value="29">§29 I. Consonant-Stems</option>
+          <option value="30">§30 Mute-Stems may end, —</option>
+          <option value="31">§31 1</option>
+          <option value="32">§32 In these the termination -s of the Nominative Singular unites with the guttural...</option>
+          <option value="33">§33 In these the final d or t of the stem disappears in the Nominative Singular...</option>
+          <option value="34">§34 These end in -l or -r</option>
+          <option value="35">§35 These end in -n,[13] which often disappears in the Nom</option>
+          <option value="36">§36 §36</option>
+          <option value="37">§37 These regularly end in -is in the Nominative Singular, and always have -ium in...</option>
+          <option value="38">§38 §38</option>
+          <option value="39">§39 These end in the Nominative Singular in -e, -al, and -ar</option>
+          <option value="40">§40 Many Consonant-Stems have so far adapted themselves to the inflection of ĭ-stems...</option>
+          <option value="41">§41 §41</option>
+          <option value="42">§42 §42</option>
+          <option value="43">§43 General Principles of Gender in the Third Declension</option>
+          <option value="44">§44 Chief Exceptions to Gender in the Third Declension. 44</option>
+          <option value="45">§45 45</option>
+          <option value="46">§46 46</option>
+          <option value="47">§47 The following are the chief peculiarities of these: —</option>
+          <option value="48">§48 Fourth Declension</option>
+          <option value="49">§49 Peculiarities of Nouns of the Fourth Declension</option>
+          <option value="50">§50 The following nouns in -us are Feminine: acus, needle; domus, house; manus...</option>
+          <option value="51">§51 Fifth Declension</option>
+          <option value="52">§52 Peculiarities of Nouns of the Fifth Declension</option>
+          <option value="53">§53 Nouns of the Fifth Declension are regularly Feminine, except diēs, day, and...</option>
+          <option value="54">§54 Defective Nouns</option>
+          <option value="55">§55 Many nouns, from the nature of their signification, are regularly used in the...</option>
+          <option value="56">§56 Here belong —</option>
+          <option value="57">§57 Nouns used only in Certain Cases</option>
+          <option value="58">§58 Here belong —</option>
+          <option value="59">§59 These are nouns whose forms are partly of one declension, and partly of another</option>
+          <option value="60">§60 Heterogeneous nouns vary in Gender</option>
+          <option value="61">§61 The following nouns have one meaning in the Singular, and another in the Plural: —</option>
+          <option value="62">§62 ADJECTIVES.</option>
+          <option value="63">§63 Adjectives of the First and Second Declensions</option>
+          <option value="64">§64 Masculine like puer: —</option>
+          <option value="65">§65 Masculine like ager: —</option>
+          <option value="66">§66 Here belong —</option>
+          <option value="67">§67 Adjectives of the Third Declension</option>
+          <option value="68">§68 These are declined as follows: —</option>
+          <option value="69">§69 These are declined as follows: —</option>
+          <option value="70">§70 §70</option>
+          <option value="71">§71 Comparison of Adjectives</option>
+          <option value="72">§72 Several Adjectives vary the Stem in Comparison; viz. —</option>
+          <option value="73">§73 Defective Comparison</option>
+          <option value="74">§74 Many adjectives do not admit terminational comparison, but form the Comparative...</option>
+          <option value="75">§75 Here belong —</option>
+          <option value="76">§76 Formation and Comparison of Adverbs</option>
+          <option value="77">§77 Adverbs Peculiar in Comparison and Formation</option>
+          <option value="78">§78 Numerals</option>
+          <option value="79">§79 TABLE OF NUMERAL ADJECTIVES AND ADVERBS</option>
+          <option value="80">§80 Declension of the Cardinals</option>
+          <option value="81">§81 Peculiarities in the Use of Numerals</option>
+          <option value="82">§82 PRONOUNS.</option>
+          <option value="83">§83 There are the following classes of pronouns: —</option>
+          <option value="84">§84 Personal Pronouns</option>
+          <option value="85">§85 Reflexive Pronouns</option>
+          <option value="86">§86 Possessive Pronouns</option>
+          <option value="87">§87 Demonstrative Pronouns</option>
+          <option value="88">§88 The Intensive Pronoun</option>
+          <option value="89">§89 The Relative Pronoun</option>
+          <option value="90">§90 Interrogative Pronouns</option>
+          <option value="91">§91 Indefinite Pronouns</option>
+          <option value="92">§92 Pronominal Adjectives</option>
+          <option value="93">§93 Conjugation.</option>
+          <option value="94">§94 Verbs have Voice, Mood, Tense, Number, and Person: —</option>
+          <option value="95">§95 These make up the so-called Finite Verb</option>
+          <option value="96">§96 The Personal Endings of the Verb are, —</option>
+          <option value="97">§97 Verb Stems</option>
+          <option value="98">§98 The Four Conjugations</option>
+          <option value="99">§99 PRINCIPAL PARTS</option>
+          <option value="100">§100 Conjugation of Sum</option>
+          <option value="101">§101 First Conjugation</option>
+          <option value="102">§102 102</option>
+          <option value="103">§103 Second Conjugation</option>
+          <option value="104">§104 104</option>
+          <option value="105">§105 Third Conjugation</option>
+          <option value="106">§106 106</option>
+          <option value="107">§107 Fourth Conjugation</option>
+          <option value="108">§108 108</option>
+          <option value="109">§109 Verbs in -iō of the Third Conjugation</option>
+          <option value="110">§110 110</option>
+          <option value="111">§111 111</option>
+          <option value="112">§112 Deponent Verbs</option>
+          <option value="113">§113 Paradigms of Deponent Verbs are —</option>
+          <option value="114">§114 Semi-Deponents</option>
+          <option value="115">§115 Periphrastic Conjugation</option>
+          <option value="116">§116 Peculiarities of Conjugation</option>
+          <option value="117">§117 Formation of the Verb Stems</option>
+          <option value="118">§118 The Perfect Stem is formed from the Verb Stem —</option>
+          <option value="119">§119 The Perfect Passive Participle, from which the Participial Stem is derived by...</option>
+          <option value="120">§120 List of the Most Important Verbs with Principal Parts</option>
+          <option value="121">§121 Second (Ē-) Conjugation</option>
+          <option value="122">§122 Third (Consonant) Conjugation</option>
+          <option value="123">§123 Fourth Conjugation</option>
+          <option value="124">§124 Irregular Verbs</option>
+          <option value="125">§125 The Inflection of sum has already been given</option>
+          <option value="126">§126 126</option>
+          <option value="127">§127 Dō, I give</option>
+          <option value="128">§128 Edō, I eat</option>
+          <option value="129">§129 Ferō, I bear</option>
+          <option value="130">§130 volō, nōlō, mālō</option>
+          <option value="131">§131 Fīō</option>
+          <option value="132">§132 Eō</option>
+          <option value="133">§133 Defective Verbs</option>
+          <option value="134">§134 134</option>
+          <option value="135">§135 Ajō, I say</option>
+          <option value="136">§136 136</option>
+          <option value="137">§137 OTHER DEFECTIVE FORMS</option>
+          <option value="138">§138 Impersonal Verbs</option>
+          <option value="139">§139 Particles are the four Parts of Speech that do not admit of inflection; viz</option>
+          <option value="140">§140 Adverbs</option>
+          <option value="141">§141 Prepositions</option>
+          <option value="142">§142 The following Prepositions govern the Ablative: —</option>
+          <option value="143">§143 Two Prepositions, in, in, into, and sub, under, govern both the Accusative and...</option>
+          <option value="144">§144 RELATION OF ADVERBS AND PREPOSITIONS</option>
+          <option value="145">§145 Interjections</option>
+          <option value="146">§146 DERIVATIVES.</option>
+          <option value="147">§147 Nouns</option>
+          <option value="148">§148 2. Nouns derived from Nouns</option>
+          <option value="149">§149 The suffixes -tās (-itās), -tūdō (-itūdō), -ia, -itia are used for the formation...</option>
+          <option value="150">§150 Adjectives</option>
+          <option value="151">§151 2. Adjectives derived from Nouns</option>
+          <option value="152">§152 1</option>
+          <option value="153">§153 Diminutives in -lus sometimes occur; as, —</option>
+          <option value="154">§154 These end in -ernus, -ternus, -tīnus, -tĭnus; as, —</option>
+          <option value="155">§155 Verbs</option>
+          <option value="156">§156 Denominatives of the First Conjugation are mostly transitive; those of the...</option>
+          <option value="157">§157 Adverbs</option>
+          <option value="158">§158 COMPOUNDS.</option>
+          <option value="159">§159 Examples of Compounds</option>
+          <option value="160">§160 Syntax treats of the use of words in sentences</option>
+          <option value="161">§161 Classification of Sentences</option>
+          <option value="162">§162 Form of Interrogative Sentences</option>
+          <option value="163">§163 Subject and Predicate</option>
+          <option value="164">§164 Simple and Compound Sentences</option>
+          <option value="165">§165 COÖRDINATE AND SUBORDINATE CLAUSES</option>
+          <option value="166">§166 Subject</option>
+          <option value="167">§167 Predicate Nouns</option>
+          <option value="168">§168 A Predicate Noun agrees with its Subject in Case;[47] as, —</option>
+          <option value="169">§169 Appositives</option>
+          <option value="170">§170 The Nominative</option>
+          <option value="171">§171 The Vocative is the Case of direct address; as, —</option>
+          <option value="172">§172 The Accusative</option>
+          <option value="173">§173 The Direct Object may express either of the two following relations: —</option>
+          <option value="174">§174 Verbs that admit a Direct Object of either of these two types are TRANSITIVE VERBS</option>
+          <option value="175">§175 Accusative of the Person or Thing Affected</option>
+          <option value="176">§176 Accusative of the Result Produced</option>
+          <option value="177">§177 Many Verbs of Making, Choosing, Calling, Showing, and the like, take two...</option>
+          <option value="178">§178 Two Accusatives — Person and Thing</option>
+          <option value="179">§179 Two Accusatives with Compounds</option>
+          <option value="180">§180 Synecdochical (or Greek) Accusative</option>
+          <option value="181">§181 Accusative of Time and Space</option>
+          <option value="182">§182 Accusative of Limit of Motion</option>
+          <option value="183">§183 The Accusative, generally modified by an Adjective, is used in Exclamations; as, —</option>
+          <option value="184">§184 The Subject of the Infinitive is put in the Accusative; as, —</option>
+          <option value="185">§185 Here belong —</option>
+          <option value="186">§186 The Dative</option>
+          <option value="187">§187 The commonest use of the Dative is to denote the person to whom something is...</option>
+          <option value="188">§188 Dative of Reference</option>
+          <option value="189">§189 The Dative is used to denote agency —</option>
+          <option value="190">§190 The Dative of Possession occurs with the verb esse in such expressions as: —</option>
+          <option value="191">§191 The Dative of Purpose or Tendency designates the end toward which an action is...</option>
+          <option value="192">§192 The use of the Dative with Adjectives corresponds very closely to its use with verbs</option>
+          <option value="193">§193 In the poets the Dative is occasionally used to denote the direction of motion...</option>
+          <option value="194">§194 The Genitive</option>
+          <option value="195">§195 With Nouns the Genitive is the case which defines the meaning of the limited...</option>
+          <option value="196">§196 196</option>
+          <option value="197">§197 197</option>
+          <option value="198">§198 198</option>
+          <option value="199">§199 199</option>
+          <option value="200">§200 200</option>
+          <option value="201">§201 201</option>
+          <option value="202">§202 202</option>
+          <option value="203">§203 203</option>
+          <option value="204">§204 The Genitive is used with many Adjectives to limit the extent of their application</option>
+          <option value="205">§205 The Genitive is used with the following classes of Verbs: —</option>
+          <option value="206">§206 Memini, Reminīscor, Oblīvīscor</option>
+          <option value="207">§207 These verbs, in addition to an Accusative of the person, occasionally take a...</option>
+          <option value="208">§208 Verbs of Judicial Action</option>
+          <option value="209">§209 Genitive with Impersonal Verbs</option>
+          <option value="210">§210 With interest, it concerns, three points enter into consideration; viz. —</option>
+          <option value="211">§211 1</option>
+          <option value="212">§212 Genitive with Other Verbs</option>
+          <option value="213">§213 The Ablative</option>
+          <option value="214">§214 The Ablative of Separation is construed sometimes with, sometimes without, a...</option>
+          <option value="215">§215 The Ablative of Source is used with the participles nātus and ortus (in poetry...</option>
+          <option value="216">§216 The Ablative accompanied by ā (ab) is used with passive verbs to denote the...</option>
+          <option value="217">§217 Ablative of Comparison</option>
+          <option value="218">§218 The Ablative is used to denote means or instrument; as, —</option>
+          <option value="219">§219 The Ablative is used to denote cause; as, —</option>
+          <option value="220">§220 The Ablative with cum is used to denote manner; as, —</option>
+          <option value="221">§221 The Ablative is often used to denote an attendant circumstance of an action or...</option>
+          <option value="222">§222 The Ablative with cum is used with verbs of motion to denote accompaniment; as, —</option>
+          <option value="222A">§222A The Ablative is often used with verbs of joining, mixing, clinging, exchanging...</option>
+          <option value="223">§223 The Ablative is used with comparatives and words involving comparison (as post...</option>
+          <option value="224">§224 The Ablative, modified by an adjective, is used to denote quality; as, —</option>
+          <option value="225">§225 With verbs of buying and selling, price is designated by the Ablative; as —</option>
+          <option value="226">§226 The Ablative of Specification is used to denote that in respect to which...</option>
+          <option value="227">§227 The Ablative Absolute is grammatically independent of the rest of the sentence</option>
+          <option value="228">§228 The place where is regularly denoted by the Ablative with a preposition; as, —</option>
+          <option value="229">§229 Place from which is regularly denoted by the Ablative with a preposition; as, —</option>
+          <option value="230">§230 The Ablative is used to denote the time at which; as, —</option>
+          <option value="231">§231 Time within which is denoted by the Ablative either with or without a...</option>
+          <option value="232">§232 The Locative</option>
+          <option value="233">§233 CHAPTER III. — Syntax of Adjectives</option>
+          <option value="234">§234 Agreement of Adjectives</option>
+          <option value="235">§235 235</option>
+          <option value="236">§236 Adjectives used Substantively</option>
+          <option value="237">§237 SINGULAR ADJECTIVES USED SUBSTANTIVELY</option>
+          <option value="238">§238 From Adjectives which, like the above, occasionally admit the substantive use...</option>
+          <option value="239">§239 Adjectives with the Force of Adverbs</option>
+          <option value="240">§240 Comparatives and Superlatives</option>
+          <option value="241">§241 Other Peculiarities</option>
+          <option value="242">§242 Personal Pronouns</option>
+          <option value="243">§243 Possessive Pronouns</option>
+          <option value="244">§244 Reflexive Pronouns</option>
+          <option value="245">§245 Reciprocal Pronouns</option>
+          <option value="246">§246 Demonstrative Pronouns</option>
+          <option value="247">§247 Is</option>
+          <option value="248">§248 Īdem</option>
+          <option value="249">§249 Ipse</option>
+          <option value="250">§250 Relative Pronouns</option>
+          <option value="251">§251 251</option>
+          <option value="252">§252 Indefinite Pronouns</option>
+          <option value="253">§253 Pronominal Adjectives</option>
+          <option value="254">§254 Agreement of Verbs</option>
+          <option value="255">§255 With Two or More Subjects</option>
+          <option value="256">§256 Voices</option>
+          <option value="257">§257 Of the Indicative</option>
+          <option value="258">§258 Tenses which denote Present or Future time are called Principal (or Primary)...</option>
+          <option value="259">§259 Besides the two uses indicated in the table, the Present Indicative presents the...</option>
+          <option value="260">§260 Imperfect Indicative</option>
+          <option value="261">§261 Future Indicative</option>
+          <option value="262">§262 Perfect Indicative</option>
+          <option value="263">§263 The Latin Pluperfect, like the English Past Perfect, denotes an act completed in...</option>
+          <option value="264">§264 The Future Perfect denotes an action completed in future time</option>
+          <option value="265">§265 In letters the writer often uses tenses which are not appropriate at the time of...</option>
+          <option value="266">§266 Of the Subjunctive</option>
+          <option value="267">§267 Sequence of Tenses</option>
+          <option value="268">§268 Peculiarities of Sequence</option>
+          <option value="269">§269 The Future and Future Perfect, which are lacking to the Latin Subjunctive, are...</option>
+          <option value="270">§270 Of the Infinitive</option>
+          <option value="271">§271 In Independent Sentences</option>
+          <option value="272">§272 The Subjunctive is used in Independent Sentences to express something —</option>
+          <option value="273">§273 Volitive Subjunctive</option>
+          <option value="274">§274 The Hortatory Subjunctive expresses an exhortation</option>
+          <option value="275">§275 The Jussive Subjunctive expresses a command</option>
+          <option value="276">§276 The Subjunctive is used in the second and third persons singular and plural...</option>
+          <option value="277">§277 The Deliberative Subjunctive is used in questions and exclamations implying...</option>
+          <option value="278">§278 The Subjunctive is used to indicate something as granted or conceded for the...</option>
+          <option value="279">§279 Optative Subjunctive</option>
+          <option value="280">§280 Potential Subjunctive</option>
+          <option value="281">§281 Imperative</option>
+          <option value="282">§282 Clauses of Purpose</option>
+          <option value="283">§283 Clauses of Characteristic</option>
+          <option value="284">§284 Clauses of Result</option>
+          <option value="285">§285 Causal Clauses</option>
+          <option value="286">§286 The use of moods is as follows: —</option>
+          <option value="287">§287 Introduced by Postquam, Ut, Ubi, etc.</option>
+          <option value="288">§288 Cum-Clauses</option>
+          <option value="289">§289 When cum refers to the Present or Future it regularly takes the Indicative; as, —</option>
+          <option value="290">§290 1</option>
+          <option value="291">§291 Introduced by Antequam and Priusquam</option>
+          <option value="292">§292 B</option>
+          <option value="293">§293 Introduced by Dum, Dōnec, Quoad</option>
+          <option value="294">§294 Substantive Clauses</option>
+          <option value="295">§295 Developed from the Volitive</option>
+          <option value="296">§296 Developed from the Optative</option>
+          <option value="297">§297 Of Result</option>
+          <option value="298">§298 After nōn dubito, etc.</option>
+          <option value="299">§299 Introduced by Quod</option>
+          <option value="300">§300 Indirect Questions</option>
+          <option value="301">§301 Conditional Sentences</option>
+          <option value="302">§302 First Type. — Nothing Implied as to the Reality of the Supposed Case</option>
+          <option value="303">§303 Here we regularly have the Subjunctive (of the Present or Perfect tense) in both...</option>
+          <option value="304">§304 Third Type. — Supposed Case Represented as Contrary to Fact</option>
+          <option value="305">§305 Protasis expressed without Sī</option>
+          <option value="306">§306 Use of Sī, Nisi, Sīn</option>
+          <option value="307">§307 Conditional Clauses of Comparison</option>
+          <option value="308">§308 Concessive Clauses</option>
+          <option value="309">§309 Adversative Clauses with Quamvīs, Quamquam, etc.</option>
+          <option value="310">§310 Clauses of Wish and Proviso</option>
+          <option value="311">§311 Relative Clauses</option>
+          <option value="312">§312 1</option>
+          <option value="313">§313 Indirect Discourse</option>
+          <option value="314">§314 Moods in Indirect Discourse</option>
+          <option value="315">§315 Interrogative Sentences</option>
+          <option value="316">§316 All Imperatives or Jussive Subjunctives of the Direct Discourse appear as...</option>
+          <option value="317">§317 Tenses in Indirect Discourse</option>
+          <option value="318">§318 These follow the regular principle for the Sequence of Tenses, being Principal...</option>
+          <option value="319">§319 Conditional Sentences in Indirect Discourse</option>
+          <option value="320">§320 Conditional Sentences of the Second Type</option>
+          <option value="321">§321 Conditional Sentences of the Third Type</option>
+          <option value="322">§322 When an apodosis of a conditional sentence of the Third Type referring to the...</option>
+          <option value="323">§323 Implied Indirect Discourse</option>
+          <option value="324">§324 Subjunctive by Attraction</option>
+          <option value="325">§325 Noun and Adjective Forms of the Verb</option>
+          <option value="326">§326 Infinitive</option>
+          <option value="327">§327 1</option>
+          <option value="328">§328 1</option>
+          <option value="329">§329 This is used chiefly as Subject or Object but also as Predicate or Appositive</option>
+          <option value="330">§330 The Infinitive with Subject Accusative (like the simple Infinitive) is used as...</option>
+          <option value="331">§331 The Infinitive with Subject Accusative is used as Object after the following...</option>
+          <option value="332">§332 Those verbs which in the Active are followed by the Infinitive with Subject...</option>
+          <option value="333">§333 The Infinitive with Adjectives (except parātus, assuētus, etc.; see § 328, 1)...</option>
+          <option value="334">§334 The Infinitive is used in Exclamations implying scorn, indignation, or regret</option>
+          <option value="335">§335 The Infinitive is often used in historical narrative instead of the Imperfect...</option>
+          <option value="336">§336 Participles</option>
+          <option value="337">§337 As an Adjective the Participle may be used either as an attributive or predicate...</option>
+          <option value="338">§338 Gerund</option>
+          <option value="339">§339 Gerundive Construction instead of the Gerund</option>
+          <option value="340">§340 Supine</option>
+          <option value="341">§341 Coördinate Conjunctions</option>
+          <option value="342">§342 342</option>
+          <option value="343">§343 343</option>
+          <option value="344">§344 344</option>
+          <option value="345">§345 Causal Conjunctions</option>
+          <option value="346">§346 346</option>
+          <option value="347">§347 Adverbs</option>
+          <option value="348">§348 Word-Order</option>
+          <option value="349">§349 But for the sake of emphasis the normal arrangement is often abandoned, and the...</option>
+          <option value="350">§350 1</option>
+          <option value="351">§351 Sentence-Structure</option>
+          <option value="352">§352 Hints on Latin Style.</option>
+          <option value="353">§353 Nouns</option>
+          <option value="354">§354 Adjectives</option>
+          <option value="355">§355 Pronouns</option>
+          <option value="356">§356 Verbs</option>
+          <option value="357">§357 The Cases</option>
+          <option value="358">§358 PECULIARITIES IN CONNECTION WITH THE USE OF THE DATIVE</option>
+          <option value="359">§359 PECULIARITIES IN THE USE OF THE GENITIVE</option>
+          <option value="360">§360 Prosody treats of metres and versification</option>
+          <option value="361">§361 361</option>
+          <option value="362">§362 Quantity of Vowels and Syllables</option>
+          <option value="363">§363 Quantity of Final Syllables</option>
+          <option value="364">§364 1</option>
+          <option value="365">§365 Greek Nouns retain in Latin their original quantity; as, Aenēā, epitomē, Dēlos...</option>
+          <option value="366">§366 Verse-Structure</option>
+          <option value="367">§367 1</option>
+          <option value="368">§368 The Dactylic Hexameter</option>
+          <option value="369">§369 The Dactylic Pentameter</option>
+          <option value="370">§370 Iambic Measures</option>
+          <option value="371">§371 Roman Calendar</option>
+          <option value="372">§372 CALENDAR</option>
+          <option value="373">§373 Roman Names</option>
+          <option value="374">§374 Figures of Syntax and Rhetoric</option>
+          <option value="375">§375 1</option>
+          <option value="syntax-index">Index of the Sources of the Illustrative Examples Cited in the Syntax</option>
+          <option value="verb-index">Index to the Principal Parts of the Most Important Verbs</option>
+          <option value="general-index">General Index</option>
+          <option value="footnotes">Footnotes</option>
+        </datalist>
+      </div>
+      <a class="sidebar-home" href="#index">↑ Title and Contents</a>
+      <details>
+        <summary>PART I</summary>
+      <ul>
+        <li class="sidebar-chapter">SOUNDS, ACCENT, QUANTITY, ETC.</li>
+        <li><a href="#1">§1 The Alphabet</a></li>
+        <li><a href="#2">§2 Classification of Sounds</a></li>
+        <li><a href="#3">§3 Sounds of the Letters</a></li>
+        <li><a href="#4">§4 Syllables</a></li>
+        <li><a href="#5">§5 Quantity</a></li>
+        <li><a href="#6">§6 Accent</a></li>
+        <li><a href="#7">§7 Vowel Changes</a></li>
+        <li><a href="#8">§8 Consonant Changes</a></li>
+        <li><a href="#9">§9 Peculiarities of Orthography</a></li>
+      </ul>
+      </details>
+      <details>
+        <summary>PART II</summary>
+      <ul>
+        <li class="sidebar-chapter">INFLECTIONS.</li>
+        <li><a href="#10">§10 NOUNS.</a></li>
+        <li class="sidebar-subordinate"><a href="#11">§11</a></li>
+        <li class="sidebar-subordinate"><a href="#12">§12</a></li>
+        <li><a href="#13">§13 Gender of Nouns</a></li>
+        <li class="sidebar-subordinate"><a href="#14">§14</a></li>
+        <li class="sidebar-subordinate"><a href="#15">§15</a></li>
+        <li><a href="#16">§16 Number</a></li>
+        <li><a href="#17">§17 Cases</a></li>
+        <li><a href="#18">§18 The Five Declensions</a></li>
+        <li class="sidebar-subordinate"><a href="#19">§19</a></li>
+        <li><a href="#20">§20 First Declension</a></li>
+        <li class="sidebar-subordinate"><a href="#21">§21</a></li>
+        <li class="sidebar-subordinate"><a href="#22">§22</a></li>
+        <li><a href="#23">§23 Second Declension</a></li>
+        <li class="sidebar-subordinate"><a href="#24">§24</a></li>
+        <li class="sidebar-subordinate"><a href="#25">§25</a></li>
+        <li class="sidebar-subordinate"><a href="#26">§26</a></li>
+        <li class="sidebar-subordinate"><a href="#27">§27</a></li>
+        <li><a href="#28">§28 Third Declension</a></li>
+        <li class="sidebar-subordinate"><a href="#29">§29</a></li>
+        <li class="sidebar-subordinate"><a href="#30">§30</a></li>
+        <li class="sidebar-subordinate"><a href="#31">§31</a></li>
+        <li class="sidebar-subordinate"><a href="#32">§32</a></li>
+        <li class="sidebar-subordinate"><a href="#33">§33</a></li>
+        <li class="sidebar-subordinate"><a href="#34">§34</a></li>
+        <li class="sidebar-subordinate"><a href="#35">§35</a></li>
+        <li class="sidebar-subordinate"><a href="#36">§36</a></li>
+        <li class="sidebar-subordinate"><a href="#37">§37</a></li>
+        <li class="sidebar-subordinate"><a href="#38">§38</a></li>
+        <li class="sidebar-subordinate"><a href="#39">§39</a></li>
+        <li class="sidebar-subordinate"><a href="#40">§40</a></li>
+        <li class="sidebar-subordinate"><a href="#41">§41</a></li>
+        <li class="sidebar-subordinate"><a href="#42">§42</a></li>
+        <li class="sidebar-subordinate"><a href="#43">§43</a></li>
+        <li class="sidebar-subordinate"><a href="#44">§44</a></li>
+        <li class="sidebar-subordinate"><a href="#45">§45</a></li>
+        <li class="sidebar-subordinate"><a href="#46">§46</a></li>
+        <li class="sidebar-subordinate"><a href="#47">§47</a></li>
+        <li><a href="#48">§48 Fourth Declension</a></li>
+        <li class="sidebar-subordinate"><a href="#49">§49</a></li>
+        <li class="sidebar-subordinate"><a href="#50">§50</a></li>
+        <li><a href="#51">§51 Fifth Declension</a></li>
+        <li class="sidebar-subordinate"><a href="#52">§52</a></li>
+        <li class="sidebar-subordinate"><a href="#53">§53</a></li>
+        <li><a href="#54">§54 Defective Nouns</a></li>
+        <li class="sidebar-subordinate"><a href="#55">§55</a></li>
+        <li class="sidebar-subordinate"><a href="#56">§56</a></li>
+        <li class="sidebar-subordinate"><a href="#57">§57</a></li>
+        <li class="sidebar-subordinate"><a href="#58">§58</a></li>
+        <li class="sidebar-subordinate"><a href="#59">§59</a></li>
+        <li class="sidebar-subordinate"><a href="#60">§60</a></li>
+        <li class="sidebar-subordinate"><a href="#61">§61</a></li>
+        <li><a href="#62">§62 ADJECTIVES.</a></li>
+        <li><a href="#63">§63 Adjectives of the First and Second Declensions</a></li>
+        <li class="sidebar-subordinate"><a href="#64">§64</a></li>
+        <li class="sidebar-subordinate"><a href="#65">§65</a></li>
+        <li class="sidebar-subordinate"><a href="#66">§66</a></li>
+        <li><a href="#67">§67 Adjectives of the Third Declension</a></li>
+        <li class="sidebar-subordinate"><a href="#68">§68</a></li>
+        <li class="sidebar-subordinate"><a href="#69">§69</a></li>
+        <li class="sidebar-subordinate"><a href="#70">§70</a></li>
+        <li><a href="#71">§71 Comparison of Adjectives</a></li>
+        <li class="sidebar-subordinate"><a href="#72">§72</a></li>
+        <li class="sidebar-subordinate"><a href="#73">§73</a></li>
+        <li class="sidebar-subordinate"><a href="#74">§74</a></li>
+        <li class="sidebar-subordinate"><a href="#75">§75</a></li>
+        <li><a href="#76">§76 Formation and Comparison of Adverbs</a></li>
+        <li class="sidebar-subordinate"><a href="#77">§77</a></li>
+        <li><a href="#78">§78 Numerals</a></li>
+        <li class="sidebar-subordinate"><a href="#79">§79</a></li>
+        <li class="sidebar-subordinate"><a href="#80">§80</a></li>
+        <li class="sidebar-subordinate"><a href="#81">§81</a></li>
+        <li><a href="#82">§82 PRONOUNS.</a></li>
+        <li class="sidebar-subordinate"><a href="#83">§83</a></li>
+        <li><a href="#84">§84 Personal Pronouns</a></li>
+        <li><a href="#85">§85 Reflexive Pronouns</a></li>
+        <li><a href="#86">§86 Possessive Pronouns</a></li>
+        <li><a href="#87">§87 Demonstrative Pronouns</a></li>
+        <li><a href="#88">§88 The Intensive Pronoun</a></li>
+        <li><a href="#89">§89 The Relative Pronoun</a></li>
+        <li><a href="#90">§90 Interrogative Pronouns</a></li>
+        <li><a href="#91">§91 Indefinite Pronouns</a></li>
+        <li><a href="#92">§92 Pronominal Adjectives</a></li>
+        <li><a href="#93">§93 Conjugation.</a></li>
+        <li class="sidebar-subordinate"><a href="#94">§94</a></li>
+        <li class="sidebar-subordinate"><a href="#95">§95</a></li>
+        <li class="sidebar-subordinate"><a href="#96">§96</a></li>
+        <li><a href="#97">§97 Verb Stems</a></li>
+        <li><a href="#98">§98 The Four Conjugations</a></li>
+        <li class="sidebar-subordinate"><a href="#99">§99</a></li>
+        <li><a href="#100">§100 Conjugation of Sum</a></li>
+        <li><a href="#101">§101 First Conjugation</a></li>
+        <li class="sidebar-subordinate"><a href="#102">§102</a></li>
+        <li><a href="#103">§103 Second Conjugation</a></li>
+        <li class="sidebar-subordinate"><a href="#104">§104</a></li>
+        <li><a href="#105">§105 Third Conjugation</a></li>
+        <li class="sidebar-subordinate"><a href="#106">§106</a></li>
+        <li><a href="#107">§107 Fourth Conjugation</a></li>
+        <li class="sidebar-subordinate"><a href="#108">§108</a></li>
+        <li><a href="#109">§109 Verbs in -iō of the Third Conjugation</a></li>
+        <li class="sidebar-subordinate"><a href="#110">§110</a></li>
+        <li class="sidebar-subordinate"><a href="#111">§111</a></li>
+        <li><a href="#112">§112 Deponent Verbs</a></li>
+        <li class="sidebar-subordinate"><a href="#113">§113</a></li>
+        <li><a href="#114">§114 Semi-Deponents</a></li>
+        <li><a href="#115">§115 Periphrastic Conjugation</a></li>
+        <li><a href="#116">§116 Peculiarities of Conjugation</a></li>
+        <li><a href="#117">§117 Formation of the Verb Stems</a></li>
+        <li class="sidebar-subordinate"><a href="#118">§118</a></li>
+        <li class="sidebar-subordinate"><a href="#119">§119</a></li>
+        <li><a href="#120">§120 List of the Most Important Verbs with Principal Parts</a></li>
+        <li class="sidebar-subordinate"><a href="#121">§121</a></li>
+        <li class="sidebar-subordinate"><a href="#122">§122</a></li>
+        <li class="sidebar-subordinate"><a href="#123">§123</a></li>
+        <li><a href="#124">§124 Irregular Verbs</a></li>
+        <li class="sidebar-subordinate"><a href="#125">§125</a></li>
+        <li class="sidebar-subordinate"><a href="#126">§126</a></li>
+        <li class="sidebar-subordinate"><a href="#127">§127</a></li>
+        <li class="sidebar-subordinate"><a href="#128">§128</a></li>
+        <li class="sidebar-subordinate"><a href="#129">§129</a></li>
+        <li class="sidebar-subordinate"><a href="#130">§130</a></li>
+        <li class="sidebar-subordinate"><a href="#131">§131</a></li>
+        <li class="sidebar-subordinate"><a href="#132">§132</a></li>
+        <li><a href="#133">§133 Defective Verbs</a></li>
+        <li class="sidebar-subordinate"><a href="#134">§134</a></li>
+        <li class="sidebar-subordinate"><a href="#135">§135</a></li>
+        <li class="sidebar-subordinate"><a href="#136">§136</a></li>
+        <li class="sidebar-subordinate"><a href="#137">§137</a></li>
+        <li><a href="#138">§138 Impersonal Verbs</a></li>
+        <li class="sidebar-subordinate"><a href="#139">§139</a></li>
+      </ul>
+      </details>
+      <details>
+        <summary>PART III</summary>
+      <ul>
+        <li class="sidebar-chapter">PARTICLES.</li>
+        <li><a href="#140">§140 Adverbs</a></li>
+        <li><a href="#141">§141 Prepositions</a></li>
+        <li class="sidebar-subordinate"><a href="#142">§142</a></li>
+        <li class="sidebar-subordinate"><a href="#143">§143</a></li>
+        <li class="sidebar-subordinate"><a href="#144">§144</a></li>
+        <li><a href="#145">§145 Interjections</a></li>
+      </ul>
+      </details>
+      <details>
+        <summary>PART IV</summary>
+      <ul>
+        <li class="sidebar-chapter">WORD FORMATION.</li>
+        <li><a href="#146">§146 DERIVATIVES.</a></li>
+        <li><a href="#147">§147 Nouns</a></li>
+        <li class="sidebar-subordinate"><a href="#148">§148</a></li>
+        <li class="sidebar-subordinate"><a href="#149">§149</a></li>
+        <li><a href="#150">§150 Adjectives</a></li>
+        <li class="sidebar-subordinate"><a href="#151">§151</a></li>
+        <li class="sidebar-subordinate"><a href="#152">§152</a></li>
+        <li class="sidebar-subordinate"><a href="#153">§153</a></li>
+        <li class="sidebar-subordinate"><a href="#154">§154</a></li>
+        <li><a href="#155">§155 Verbs</a></li>
+        <li class="sidebar-subordinate"><a href="#156">§156</a></li>
+        <li><a href="#157">§157 Adverbs</a></li>
+        <li><a href="#158">§158 COMPOUNDS.</a></li>
+        <li><a href="#159">§159 Examples of Compounds</a></li>
+        <li class="sidebar-subordinate"><a href="#160">§160</a></li>
+      </ul>
+      </details>
+      <details>
+        <summary>PART V</summary>
+      <ul>
+        <li class="sidebar-chapter">SYNTAX.</li>
+        <li><a href="#161">§161 Classification of Sentences</a></li>
+        <li><a href="#162">§162 Form of Interrogative Sentences</a></li>
+        <li><a href="#163">§163 Subject and Predicate</a></li>
+        <li><a href="#164">§164 Simple and Compound Sentences</a></li>
+        <li class="sidebar-subordinate"><a href="#165">§165</a></li>
+        <li><a href="#166">§166 Subject</a></li>
+        <li><a href="#167">§167 Predicate Nouns</a></li>
+        <li class="sidebar-subordinate"><a href="#168">§168</a></li>
+        <li><a href="#169">§169 Appositives</a></li>
+        <li><a href="#170">§170 The Nominative</a></li>
+        <li class="sidebar-subordinate"><a href="#171">§171</a></li>
+        <li><a href="#172">§172 The Accusative</a></li>
+        <li class="sidebar-subordinate"><a href="#173">§173</a></li>
+        <li class="sidebar-subordinate"><a href="#174">§174</a></li>
+        <li class="sidebar-subordinate"><a href="#175">§175</a></li>
+        <li class="sidebar-subordinate"><a href="#176">§176</a></li>
+        <li class="sidebar-subordinate"><a href="#177">§177</a></li>
+        <li class="sidebar-subordinate"><a href="#178">§178</a></li>
+        <li class="sidebar-subordinate"><a href="#179">§179</a></li>
+        <li class="sidebar-subordinate"><a href="#180">§180</a></li>
+        <li class="sidebar-subordinate"><a href="#181">§181</a></li>
+        <li class="sidebar-subordinate"><a href="#182">§182</a></li>
+        <li class="sidebar-subordinate"><a href="#183">§183</a></li>
+        <li class="sidebar-subordinate"><a href="#184">§184</a></li>
+        <li class="sidebar-subordinate"><a href="#185">§185</a></li>
+        <li><a href="#186">§186 The Dative</a></li>
+        <li class="sidebar-subordinate"><a href="#187">§187</a></li>
+        <li class="sidebar-subordinate"><a href="#188">§188</a></li>
+        <li class="sidebar-subordinate"><a href="#189">§189</a></li>
+        <li class="sidebar-subordinate"><a href="#190">§190</a></li>
+        <li class="sidebar-subordinate"><a href="#191">§191</a></li>
+        <li class="sidebar-subordinate"><a href="#192">§192</a></li>
+        <li class="sidebar-subordinate"><a href="#193">§193</a></li>
+        <li><a href="#194">§194 The Genitive</a></li>
+        <li class="sidebar-subordinate"><a href="#195">§195</a></li>
+        <li class="sidebar-subordinate"><a href="#196">§196</a></li>
+        <li class="sidebar-subordinate"><a href="#197">§197</a></li>
+        <li class="sidebar-subordinate"><a href="#198">§198</a></li>
+        <li class="sidebar-subordinate"><a href="#199">§199</a></li>
+        <li class="sidebar-subordinate"><a href="#200">§200</a></li>
+        <li class="sidebar-subordinate"><a href="#201">§201</a></li>
+        <li class="sidebar-subordinate"><a href="#202">§202</a></li>
+        <li class="sidebar-subordinate"><a href="#203">§203</a></li>
+        <li class="sidebar-subordinate"><a href="#204">§204</a></li>
+        <li class="sidebar-subordinate"><a href="#205">§205</a></li>
+        <li class="sidebar-subordinate"><a href="#206">§206</a></li>
+        <li class="sidebar-subordinate"><a href="#207">§207</a></li>
+        <li class="sidebar-subordinate"><a href="#208">§208</a></li>
+        <li class="sidebar-subordinate"><a href="#209">§209</a></li>
+        <li class="sidebar-subordinate"><a href="#210">§210</a></li>
+        <li class="sidebar-subordinate"><a href="#211">§211</a></li>
+        <li class="sidebar-subordinate"><a href="#212">§212</a></li>
+        <li><a href="#213">§213 The Ablative</a></li>
+        <li class="sidebar-subordinate"><a href="#214">§214</a></li>
+        <li class="sidebar-subordinate"><a href="#215">§215</a></li>
+        <li class="sidebar-subordinate"><a href="#216">§216</a></li>
+        <li class="sidebar-subordinate"><a href="#217">§217</a></li>
+        <li class="sidebar-subordinate"><a href="#218">§218</a></li>
+        <li class="sidebar-subordinate"><a href="#219">§219</a></li>
+        <li class="sidebar-subordinate"><a href="#220">§220</a></li>
+        <li class="sidebar-subordinate"><a href="#221">§221</a></li>
+        <li class="sidebar-subordinate"><a href="#222">§222</a></li>
+        <li class="sidebar-subordinate"><a href="#222A">§222A</a></li>
+        <li class="sidebar-subordinate"><a href="#223">§223</a></li>
+        <li class="sidebar-subordinate"><a href="#224">§224</a></li>
+        <li class="sidebar-subordinate"><a href="#225">§225</a></li>
+        <li class="sidebar-subordinate"><a href="#226">§226</a></li>
+        <li class="sidebar-subordinate"><a href="#227">§227</a></li>
+        <li class="sidebar-subordinate"><a href="#228">§228</a></li>
+        <li class="sidebar-subordinate"><a href="#229">§229</a></li>
+        <li class="sidebar-subordinate"><a href="#230">§230</a></li>
+        <li class="sidebar-subordinate"><a href="#231">§231</a></li>
+        <li><a href="#232">§232 The Locative</a></li>
+        <li class="sidebar-subordinate"><a href="#233">§233</a></li>
+        <li><a href="#234">§234 Agreement of Adjectives</a></li>
+        <li class="sidebar-subordinate"><a href="#235">§235</a></li>
+        <li><a href="#236">§236 Adjectives used Substantively</a></li>
+        <li class="sidebar-subordinate"><a href="#237">§237</a></li>
+        <li class="sidebar-subordinate"><a href="#238">§238</a></li>
+        <li><a href="#239">§239 Adjectives with the Force of Adverbs</a></li>
+        <li><a href="#240">§240 Comparatives and Superlatives</a></li>
+        <li><a href="#241">§241 Other Peculiarities</a></li>
+        <li><a href="#242">§242 Personal Pronouns</a></li>
+        <li><a href="#243">§243 Possessive Pronouns</a></li>
+        <li><a href="#244">§244 Reflexive Pronouns</a></li>
+        <li><a href="#245">§245 Reciprocal Pronouns</a></li>
+        <li><a href="#246">§246 Demonstrative Pronouns</a></li>
+        <li class="sidebar-subordinate"><a href="#247">§247</a></li>
+        <li class="sidebar-subordinate"><a href="#248">§248</a></li>
+        <li class="sidebar-subordinate"><a href="#249">§249</a></li>
+        <li><a href="#250">§250 Relative Pronouns</a></li>
+        <li class="sidebar-subordinate"><a href="#251">§251</a></li>
+        <li><a href="#252">§252 Indefinite Pronouns</a></li>
+        <li><a href="#253">§253 Pronominal Adjectives</a></li>
+        <li><a href="#254">§254 Agreement of Verbs</a></li>
+        <li class="sidebar-subordinate"><a href="#255">§255</a></li>
+        <li><a href="#256">§256 Voices</a></li>
+        <li><a href="#257">§257 Of the Indicative</a></li>
+        <li class="sidebar-subordinate"><a href="#258">§258</a></li>
+        <li class="sidebar-subordinate"><a href="#259">§259</a></li>
+        <li class="sidebar-subordinate"><a href="#260">§260</a></li>
+        <li class="sidebar-subordinate"><a href="#261">§261</a></li>
+        <li class="sidebar-subordinate"><a href="#262">§262</a></li>
+        <li class="sidebar-subordinate"><a href="#263">§263</a></li>
+        <li class="sidebar-subordinate"><a href="#264">§264</a></li>
+        <li class="sidebar-subordinate"><a href="#265">§265</a></li>
+        <li><a href="#266">§266 Of the Subjunctive</a></li>
+        <li class="sidebar-subordinate"><a href="#267">§267</a></li>
+        <li class="sidebar-subordinate"><a href="#268">§268</a></li>
+        <li class="sidebar-subordinate"><a href="#269">§269</a></li>
+        <li><a href="#270">§270 Of the Infinitive</a></li>
+        <li><a href="#271">§271 In Independent Sentences</a></li>
+        <li class="sidebar-subordinate"><a href="#272">§272</a></li>
+        <li><a href="#273">§273 Volitive Subjunctive</a></li>
+        <li class="sidebar-subordinate"><a href="#274">§274</a></li>
+        <li class="sidebar-subordinate"><a href="#275">§275</a></li>
+        <li class="sidebar-subordinate"><a href="#276">§276</a></li>
+        <li class="sidebar-subordinate"><a href="#277">§277</a></li>
+        <li class="sidebar-subordinate"><a href="#278">§278</a></li>
+        <li><a href="#279">§279 Optative Subjunctive</a></li>
+        <li><a href="#280">§280 Potential Subjunctive</a></li>
+        <li><a href="#281">§281 Imperative</a></li>
+        <li><a href="#282">§282 Clauses of Purpose</a></li>
+        <li><a href="#283">§283 Clauses of Characteristic</a></li>
+        <li><a href="#284">§284 Clauses of Result</a></li>
+        <li><a href="#285">§285 Causal Clauses</a></li>
+        <li class="sidebar-subordinate"><a href="#286">§286</a></li>
+        <li><a href="#287">§287 Introduced by Postquam, Ut, Ubi, etc.</a></li>
+        <li><a href="#288">§288 Cum-Clauses</a></li>
+        <li class="sidebar-subordinate"><a href="#289">§289</a></li>
+        <li class="sidebar-subordinate"><a href="#290">§290</a></li>
+        <li><a href="#291">§291 Introduced by Antequam and Priusquam</a></li>
+        <li class="sidebar-subordinate"><a href="#292">§292</a></li>
+        <li><a href="#293">§293 Introduced by Dum, Dōnec, Quoad</a></li>
+        <li><a href="#294">§294 Substantive Clauses</a></li>
+        <li><a href="#295">§295 Developed from the Volitive</a></li>
+        <li><a href="#296">§296 Developed from the Optative</a></li>
+        <li><a href="#297">§297 Of Result</a></li>
+        <li><a href="#298">§298 After nōn dubito, etc.</a></li>
+        <li><a href="#299">§299 Introduced by Quod</a></li>
+        <li><a href="#300">§300 Indirect Questions</a></li>
+        <li><a href="#301">§301 Conditional Sentences</a></li>
+        <li class="sidebar-subordinate"><a href="#302">§302</a></li>
+        <li class="sidebar-subordinate"><a href="#303">§303</a></li>
+        <li class="sidebar-subordinate"><a href="#304">§304</a></li>
+        <li class="sidebar-subordinate"><a href="#305">§305</a></li>
+        <li><a href="#306">§306 Use of Sī, Nisi, Sīn</a></li>
+        <li><a href="#307">§307 Conditional Clauses of Comparison</a></li>
+        <li><a href="#308">§308 Concessive Clauses</a></li>
+        <li><a href="#309">§309 Adversative Clauses with Quamvīs, Quamquam, etc.</a></li>
+        <li><a href="#310">§310 Clauses of Wish and Proviso</a></li>
+        <li><a href="#311">§311 Relative Clauses</a></li>
+        <li class="sidebar-subordinate"><a href="#312">§312</a></li>
+        <li><a href="#313">§313 Indirect Discourse</a></li>
+        <li><a href="#314">§314 Moods in Indirect Discourse</a></li>
+        <li class="sidebar-subordinate"><a href="#315">§315</a></li>
+        <li class="sidebar-subordinate"><a href="#316">§316</a></li>
+        <li><a href="#317">§317 Tenses in Indirect Discourse</a></li>
+        <li class="sidebar-subordinate"><a href="#318">§318</a></li>
+        <li><a href="#319">§319 Conditional Sentences in Indirect Discourse</a></li>
+        <li class="sidebar-subordinate"><a href="#320">§320</a></li>
+        <li class="sidebar-subordinate"><a href="#321">§321</a></li>
+        <li class="sidebar-subordinate"><a href="#322">§322</a></li>
+        <li><a href="#323">§323 Implied Indirect Discourse</a></li>
+        <li><a href="#324">§324 Subjunctive by Attraction</a></li>
+        <li><a href="#325">§325 Noun and Adjective Forms of the Verb</a></li>
+        <li><a href="#326">§326 Infinitive</a></li>
+        <li class="sidebar-subordinate"><a href="#327">§327</a></li>
+        <li class="sidebar-subordinate"><a href="#328">§328</a></li>
+        <li class="sidebar-subordinate"><a href="#329">§329</a></li>
+        <li class="sidebar-subordinate"><a href="#330">§330</a></li>
+        <li class="sidebar-subordinate"><a href="#331">§331</a></li>
+        <li class="sidebar-subordinate"><a href="#332">§332</a></li>
+        <li class="sidebar-subordinate"><a href="#333">§333</a></li>
+        <li class="sidebar-subordinate"><a href="#334">§334</a></li>
+        <li class="sidebar-subordinate"><a href="#335">§335</a></li>
+        <li><a href="#336">§336 Participles</a></li>
+        <li class="sidebar-subordinate"><a href="#337">§337</a></li>
+        <li><a href="#338">§338 Gerund</a></li>
+        <li class="sidebar-subordinate"><a href="#339">§339</a></li>
+        <li><a href="#340">§340 Supine</a></li>
+        <li><a href="#341">§341 Coördinate Conjunctions</a></li>
+        <li class="sidebar-subordinate"><a href="#342">§342</a></li>
+        <li class="sidebar-subordinate"><a href="#343">§343</a></li>
+        <li class="sidebar-subordinate"><a href="#344">§344</a></li>
+        <li class="sidebar-subordinate"><a href="#345">§345</a></li>
+        <li class="sidebar-subordinate"><a href="#346">§346</a></li>
+        <li><a href="#347">§347 Adverbs</a></li>
+        <li><a href="#348">§348 Word-Order</a></li>
+        <li class="sidebar-subordinate"><a href="#349">§349</a></li>
+        <li class="sidebar-subordinate"><a href="#350">§350</a></li>
+        <li><a href="#351">§351 Sentence-Structure</a></li>
+        <li><a href="#352">§352 Hints on Latin Style.</a></li>
+        <li><a href="#353">§353 Nouns</a></li>
+        <li><a href="#354">§354 Adjectives</a></li>
+        <li><a href="#355">§355 Pronouns</a></li>
+        <li><a href="#356">§356 Verbs</a></li>
+        <li><a href="#357">§357 The Cases</a></li>
+        <li class="sidebar-subordinate"><a href="#358">§358</a></li>
+        <li class="sidebar-subordinate"><a href="#359">§359</a></li>
+        <li class="sidebar-subordinate"><a href="#360">§360</a></li>
+        <li class="sidebar-subordinate"><a href="#361">§361</a></li>
+      </ul>
+      </details>
+      <details>
+        <summary>PART VI</summary>
+      <ul>
+        <li class="sidebar-chapter">PROSODY.</li>
+        <li><a href="#362">§362 Quantity of Vowels and Syllables</a></li>
+        <li class="sidebar-subordinate"><a href="#363">§363</a></li>
+        <li class="sidebar-subordinate"><a href="#364">§364</a></li>
+        <li class="sidebar-subordinate"><a href="#365">§365</a></li>
+        <li><a href="#366">§366 Verse-Structure</a></li>
+        <li class="sidebar-subordinate"><a href="#367">§367</a></li>
+        <li><a href="#368">§368 The Dactylic Hexameter</a></li>
+        <li><a href="#369">§369 The Dactylic Pentameter</a></li>
+        <li><a href="#370">§370 Iambic Measures</a></li>
+        <li class="sidebar-chapter">SUPPLEMENTS TO THE GRAMMAR.</li>
+        <li><a href="#371">§371 Roman Calendar</a></li>
+        <li class="sidebar-subordinate"><a href="#372">§372</a></li>
+        <li><a href="#373">§373 Roman Names</a></li>
+        <li><a href="#374">§374 Figures of Syntax and Rhetoric</a></li>
+        <li class="sidebar-subordinate"><a href="#375">§375</a></li>
+      </ul>
+      </details>
+      <details>
+        <summary>Appendix</summary>
+        <ul>
+          <li><a href="#syntax-index">Index of the Sources of the Illustrative Examples Cited in the Syntax</a></li>
+          <li><a href="#verb-index">Index to the Principal Parts of the Most Important Verbs</a></li>
+          <li><a href="#general-index">General Index</a></li>
+          <li><a href="#footnotes">Footnotes</a></li>
+        </ul>
+      </details>
+    </nav>
+
+    <div class="content-wrap">
+      <main class="content" id="main-content">
+      </main>
+
+      <footer class="page-nav" id="page-nav">
+      </footer>
+    </div>
+  </div>
+
+  <script src="bennett.js"></script>
+</body>
+</html>
