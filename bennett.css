@@ -71,7 +71,7 @@ body {
   font-family: 'Garamontio', Georgia, serif;
   font-size: 1rem;
   font-weight: normal;
-  color: #1a1a1a;
+  color: #1f40c4;
   text-decoration: none;
   white-space: nowrap;
 }
@@ -138,7 +138,7 @@ body {
   padding: .75rem 1rem;
   background: #f8f8f8;
   border-bottom: 1px solid #e0e0e0;
-  margin-bottom: 0.5rem;
+  /* margin-bottom: 0.5rem; */
 }
 
 .sidebar-jump-input {
@@ -162,19 +162,33 @@ body {
   box-shadow: 0 0 0 2px rgba(31, 64, 196, 0.12);
 }
 
-.sidebar-home {
+.sidebar-top-link {
   display: block;
-  padding: 0.55rem 1rem;
-  color: #333;
+  padding: 0.5rem 1rem;
+  color: #555;
   text-decoration: none;
-  font-size: 0.76rem;
-  font-weight: bold;
+  font-size: 0.72rem;
   border-bottom: 1px solid #e8e8e8;
+  user-select: none;
 }
 
-.sidebar-home:hover {
-  color: #1f40c4;
+.sidebar-top-link:visited {
+  color: #555;
+}
+
+.sidebar-top-link:hover {
+  color: #1a1a1a;
   background: #eee;
+}
+
+.sidebar-top-link.active {
+  color: #1f40c4;
+  font-weight: bold;
+  background: #eef1fb;
+}
+
+.sidebar-top-link.active:visited {
+  color: #1f40c4;
 }
 
 .sidebar details {
@@ -320,8 +334,8 @@ article > p:first-child {
   margin-right: -2.5rem;
   padding-right: 0.55rem;
   text-align: right;
-  font-size: 0.72rem;
-  color: #aaa;
+  /* font-size: 0.72rem; */
+  color: #1f40c4;
   font-weight: normal;
   user-select: none;
 }
