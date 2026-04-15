@@ -404,8 +404,6 @@ h4:hover > .permalink-icon {
 /* ── Footnote popovers ───────────────────────────────────── */
 
 /* The inline superscript reference */
-sup {font-size: inherit}
-
 a.fn-ref {
   text-decoration: none;
   color: #1f40c4;
@@ -646,6 +644,8 @@ pre { font-family: 'Courier New', Courier, monospace; font-size: 0.88rem; margin
 /* ── Responsive ──────────────────────────────────────────── */
 
 @media (max-width: 800px) {
+
+  html {font-size: 17px;}
   .layout { grid-template-columns: 1fr; }
 
   .sidebar {
@@ -679,6 +679,11 @@ pre { font-family: 'Courier New', Courier, monospace; font-size: 0.88rem; margin
   }
 
   .breadcrumb { display: none; }
+  .sect-num {
+	display:block;
+	left: 0; width: unset;
+	text-align: unset;
+  }
 }
 
 /* ── Print ───────────────────────────────────────────────── */
