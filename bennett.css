@@ -280,6 +280,7 @@ body {
 .content-wrap {
   grid-column: 2;
   min-width: 0;
+  background:#fdfdfd;
 }
 
 .content {
