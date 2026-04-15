@@ -404,6 +404,8 @@ h4:hover > .permalink-icon {
 /* ── Footnote popovers ───────────────────────────────────── */
 
 /* The inline superscript reference */
+sup {font-size: inherit}
+
 a.fn-ref {
   text-decoration: none;
   color: #1f40c4;
