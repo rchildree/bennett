@@ -117,9 +117,10 @@ body {
   background: #f8f8f8;
   border-right: 1px solid #e0e0e0;
   padding: 0 0 2rem;
-  font-size: 0.82rem;
+  font-size: 0.8rem;
   scrollbar-width: thin;
   scrollbar-color: #ccc transparent;
+  scrollbar-gutter: stable;
 }
 
 .sidebar::-webkit-scrollbar {
@@ -167,7 +168,7 @@ body {
   padding: 0.5rem 1rem;
   color: #555;
   text-decoration: none;
-  font-size: 0.72rem;
+  font-size: 0.8rem;
   border-bottom: 1px solid #e8e8e8;
   user-select: none;
 }
@@ -196,9 +197,9 @@ body {
 }
 
 .sidebar details summary {
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 0.5rem 0.5rem 1rem;
   cursor: pointer;
-  font-size: 0.72rem;
+  font-size: 0.8rem;
   /* letter-spacing: 0.06em; */
   /* text-transform: uppercase; */
   color: #555;
@@ -252,6 +253,7 @@ body {
 .sidebar li a {
   display: block;
   padding: 0.2rem 1rem 0.2rem 1.25rem;
+  font-size:0.72rem;
   color: #444;
   text-decoration: none;
   line-height: 1.4;
@@ -334,9 +336,9 @@ article > p:first-child {
   margin-right: -2.5rem;
   padding-right: 0.55rem;
   text-align: right;
-  /* font-size: 0.72rem; */
+  font-size: 0.8rem;
   color: #1f40c4;
-  font-weight: normal;
+  font-weight: bold;
   user-select: none;
 }
 
@@ -522,10 +524,10 @@ blockquote.b2 p + p {margin-top: .5rem;}
 blockquote.b3 p + p {margin-top: .5rem;}
 
 /* Latin phrases */
-blockquote b { color: #0d1a52; }
+blockquote b2 b { color: #0d1a52; }
 
 /* English translations */
-blockquote i { color: #3a4060; font-style: italic; }
+blockquote b2 i { color: #3a4060; font-style: italic; }
 
 blockquote.small {
   font-size: 0.88rem;
