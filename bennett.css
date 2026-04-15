@@ -284,7 +284,7 @@ body {
 }
 
 .content {
-  /* max-width: 75ch; */
+  max-width: 95ch;
   padding: 2.5rem 3rem 3rem;
 }
 
@@ -617,9 +617,9 @@ pre { font-family: 'Courier New', Courier, monospace; font-size: 0.88rem; margin
 .page-nav {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   padding: 1.25rem 3rem;
-  /* max-width: 75ch; */
+  max-width: 95ch;
   border-top: 1px solid #e8e8e8;
   font-size: 0.88rem;
   gap: 1rem;
